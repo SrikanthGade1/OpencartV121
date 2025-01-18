@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+  <!-- Youtube link https://www.youtube.com/watch?v=6LpzIasOMFg&list=PLUDwpEzHYYLtQzEEEldbjPAR-gnStv4sR&index=7&ab_channel=SDET-QA -->
+
+  <Properties>
+    <!--
+    - In the below line we specify where log file needs to be generated.
+    - ./ represents the current project directory and inside that logs folder that we already created.
+    - basePath is just a reference. We can provide whichever name we may like, but in "fileName" and "filePattern"
+    same reference should be provided
+    - In xml, if we want to create any variable, we use "Property" tag
+    -->
+    <Property name="basePath">./logs</Property>
+  </Properties>
+
+  <Appenders>
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <!-- Rolling File Appender
+    - In the below line, fileName="${basePath} represents the basePath that we mentioned in the "Property name" above
+    - Logs would be written to automation.log file based on the path provided below
+    - If the automation.log file gets filled, a new log file based on "filePattern" would be generated along with timestamp
+    as mentioned below
+    -->
+
+    <RollingFile name="File" fileName="${basePath}/automation.log"
+                 filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy/>
+        <SizeBasedTriggeringPolicy size="10 MB"/>
+      </Policies>
+    </RollingFile>
+  </Appenders>
+
+  <Loggers>
+
+    <Root level="Debug">
+      <!--
+      - Normally we use "Info" to capture the logs. Whatever messages we write in the test cases would be displayed
+      - If test is failing and developer wants detailed logs, we go for "debug" logging so that it captures all transactions
+      - Based on below reference, we can use either Console (or) File (or) both based on requirement
+      - Execution might get delayed if both are enabled
+      -->
+
+      <!-- If we use below reference, we used "Console" based on which "Console" under "Appenders" is used -->
+      <AppenderRef ref="Console"/>
+      <!-- If we use below reference, we used "File" based on which "File" under "RollingFile" is used -->
+      <AppenderRef ref="File"/>
+
+    </Root>
+  </Loggers>
+</Configuration>

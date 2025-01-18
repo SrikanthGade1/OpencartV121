@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+- All XML files should be created at project level so that it can read all the files/tests present in various folders
+- If we need not run tests parallel, we need not include the entry, parallel="tests". Tests would run one after
+ another in the below-mentioned serial order, one after another
+- If we want to run tests parallel, we need to include parallel="tests" as below
+- It can be noticed that all three browsers are launched parallel and testing gets completed
+-->
+<suite name="Suite" parallel="tests" thread-count="5">
+
+    <listeners>
+        <listener
+                class-name="utilities.ExtentReportManager">
+        </listener>
+    </listeners>
+    <!--
+    - Below we have tests running in three different browsers
+    - If we run the test, it would run in serial wise format i.e., first chrome, then edge and then firefox
+    -->
+    <test name="chrome test">
+        <parameter name="os" value="Windows"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="edge test">
+        <parameter name="os" value="Windows"></parameter>
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="firefox test">
+        <parameter name="os" value="Windows"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="testCases.TC001_AccountRegistrationTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

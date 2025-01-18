@@ -1,0 +1,48 @@
+2024-12-30 17:59:34 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml"
+2024-12-30 17:59:35 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml
+
+2024-12-30 17:59:42 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 17:59:42 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 17:59:42 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 18:07:34 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml"
+2024-12-30 18:07:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml
+
+2024-12-30 18:07:39 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 18:07:39 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 18:07:39 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 18:10:21 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml"
+2024-12-30 18:10:21 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\grouping.xml
+
+2024-12-30 18:10:25 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 18:10:25 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 18:10:25 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 18:10:42 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link...
+2024-12-30 18:24:34 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml"
+2024-12-30 18:24:34 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml
+
+2024-12-30 18:24:38 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 18:24:38 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 18:24:38 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 18:24:49 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link...
+2024-12-30 18:33:50 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml"
+2024-12-30 18:33:50 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml
+
+2024-12-30 18:33:54 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 18:33:54 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 18:33:54 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 19:17:19 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml"
+2024-12-30 19:17:19 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ADMIN\IdeaProjects\OpencartV121\master.xml
+
+2024-12-30 19:17:24 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Started ********* TC001_AccountRegistrationTest ***********
+2024-12-30 19:17:24 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Starting TC_002_LoginTest *******
+2024-12-30 19:17:25 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount link...
+2024-12-30 19:17:26 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Clicked on Register link...
+2024-12-30 19:17:27 [TestNG-test-Test-2] INFO  testCases.TC002_LoginTest - ***** Finished TC_002_LoginTest *******
+2024-12-30 19:17:28 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message......
+2024-12-30 19:17:28 [TestNG-test-Test-1] INFO  testCases.TC001_AccountRegistrationTest - Finished ********* TC001_AccountRegistrationTest ***********
